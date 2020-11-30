@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "astra",
-            "scopeName": "source",
+            "scopeName": "source.astra",
             "path": "./syntaxes/astra.tmGrammar.json"
         }]
     }

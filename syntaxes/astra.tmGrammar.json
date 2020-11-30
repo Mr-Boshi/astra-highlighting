@@ -1,32 +1,103 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "ASTRA",
+	"scopeName": "source.astra",
+	"fileTypes": [],
+	"uuid": "d810057e-daf9-484b-97ed-a719fc1b209e",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"comment": "WORK seletion",
+			"name": "keyword.other.astra",
+			"match": "(?i)\\\"WORK\\([A-Za-z0-9]+,\\d+\\)\\\""
 		},
 		{
-			"include": "#strings"
-		}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.astra",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"comment": "comment seletion",
+			"name": "comment.line.as",
+			"match" : "^\\s*!\\s.*"
 		},
-		"strings": {
-			"name": "string.quoted.double.astra",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.astra",
-					"match": "\\\\."
-				}
-			]
+		{
+			"comment": "NE seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)NE\\b"
+		},
+		{
+			"comment": "NI seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)NI\\b"
+		},
+		{
+			"comment": "IPL seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)IPL\\b"
+		},
+		{
+			"comment": "UPL seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)UPL\\b"
+		},
+		{
+			"comment": "TE seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)TE\\b"
+		},
+		{
+			"comment": "TI seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)TI\\b"
+		},
+		{
+			"comment": "ZEF seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)ZEF\\b"
+		},
+		{
+			"comment": "RHO seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)RHO\\b"
+		},
+		{
+			"comment": "RTOR seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)RTOR\\b"
+		},
+		{
+			"comment": "ABC seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)ABC\\b"
+		},
+		{
+			"comment": "BTOR seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)BTOR\\b"
+		},
+		{
+			"comment": "DN seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)DN\\b"
+		},
+		{
+			"comment": "CN seletion",
+			"name": "constant.numeric.other.astra",
+			"match": "(?i)CN\\b"
+		},
+		{
+			"comment": "CARX seletion",
+			"name": "support.constant.other.astra",
+			"match": "(?i)CAR\\d+[A-Za-z]\\b"
+		},
+		{
+			"comment": "CIMPX seletion",
+			"name": "support.variable.other.astra",
+			"match": "(?i)CIMP\\d+\\b"
+		},
+		{
+			"comment": "CF seletion",
+			"name": "support.function.other.astra",
+			"match": "(?i)CF\\d+\\b"
+		},
+		{
+			"comment": "CAR seletion",
+			"name": "support.function.other.astra",
+			"match": "(?i)CAR\\d+\\b"
 		}
-	},
-	"scopeName": ""
+	]
 }
