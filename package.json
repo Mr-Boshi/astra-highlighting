@@ -1,0 +1,25 @@
+{
+    "name": "astra",
+    "displayName": "Astra-syn",
+    "description": "Syntax highlighting for ASTRA code files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "astra",
+            "aliases": ["ASTRA", "astra"],
+            "extensions": [""],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "astra",
+            "scopeName": "source",
+            "path": "./syntaxes/astra.tmGrammar.json"
+        }]
+    }
+}
