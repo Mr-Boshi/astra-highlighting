@@ -1,65 +1,36 @@
-# ASTRA README
+# ASTRA highlighting for VS Code
 
-This is the README for your extension "ASTRA". After writing up a brief description, we recommend including the following sections.
+This extention adds the support for ASTRA (Automated System for TRansport Analysis) language in VS Code.
+
+
+**Attention! This extention is not for the AgentSpeak(TR+ER) implementation.**
 
 ## Features
+Highlitghts variables and functions such as
+* Сomment lines.
+* Configuration: **RTOR**, **AB** (or **ABC**), **AMETR**, **SHIF**, **ELON**, **TRIA**, **RHO**, **RTOR**, **AWALL**, **NNCL**, **NNWM**, **ENCL**, **ENWM**, **LEXT** **UEXT**, **VOLUME**, **VSB**, **VSC**, **RHOW**, **ROC**, **QECR**, **QFW**, **QICR**, **QLH**, **QNBI**, **NB1**, **TSTART**, **TEND**.
+* Plasma parameters: **AMJ** (or **AMAIN**), **ZEF**, **ZMJ** (or **ZMAIN**, **ZIM\***), **NE**, **NI**, **NHYDR**, **NDEUT**, **NIZ\***, **TE**, **TI**, **TN**, **NN**.
+* Current and magnetic field: **IPL**, **BTOR**, **MU**, **CU**.
+* Variables: **CF\***, **CV\***, **CHE\***, **CHI\***, **CNB\***, **CNBI\***, **CCD\***, **CRF\***, **CNEUT\***, **CPEL\***, **CBND\***, **CFUS\***, **CIMP\***, **CMHD\***, **CRAD\***, **CSOL\***, **AIM\***, **GN2E**, **GN2I**, **WNE**, **WTE**, **WTI**.
+* Build-in functions: **WTOT**, **TIMDER**, **TIMINT**, **FJUMP**, **FRAMP**, **FIXVAL**, **FTAV**, **FTMIN**, **FTMAX**, **FA**, **FX**, **FLIN**, **FR**, **FRS**, **FPR**, **FPA**, **GAUSS**, **FRMIN**, **FRMAX**, **RFMIN**, **RFMAX**, **RFVAL**, **AFVAL**, **GRAD**, **VINT**, **IINT**, **VOLUM**, **NEAV**, **ASTEP**, **RSTEP**, **XSTEP**, **STEP**, **CUT**, **RFA**, **XFA**, **AFR**, **AFX**, **RFAN**, **XFAN**, **SIN**, **COS**, **TAN**, **ASIN**, **ATAN**, **EXP**, **ABS**, **MIN**, **MAX**, **SQRT**, **ALOG**, **ALOG10**, **ANINT**, **REAL**, **SIGN**.
+* Some subroutines: **FGAUSS**, **gridstrahl**, **grid_circular**, **as_strahl**, **NEUT**, **NEUTAB**.
+* **WORK()** array.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Color grouping is based on ASTRA manual section 4.10.1.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+This is a work in progress extention but most of the needed stuff is already working.
+Extention's repo: __https://github.com/Mr-Boshi/astra-highlighting__
 
-### 1.0.0
 
-Initial release of ...
+### 0.0.1
 
-### 1.0.1
+Initial release
 
-Fixed issue #.
+### 0.1
 
-### 1.1.0
+* Coloring is more like you would expect from a syntax highlighting
+* More variables are supported
+* Math symbols are highlighted
 
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

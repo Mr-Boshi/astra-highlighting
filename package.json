@@ -2,24 +2,38 @@
     "name": "astra",
     "displayName": "Astra-syn",
     "description": "Syntax highlighting for ASTRA code files",
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "publisher": "MrBoshi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mr-Boshi/astra-highlighting"
+    },
     "engines": {
-        "vscode": "^1.51.0"
+        "vscode": "^1.50.0"
     },
     "categories": [
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "astra",
-            "aliases": ["ASTRA", "astra"],
-            "extensions": [""],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "astra",
-            "scopeName": "source.astra",
-            "path": "./syntaxes/astra.tmGrammar.json"
-        }]
+        "languages": [
+            {
+                "id": "astra",
+                "aliases": [
+                    "ASTRA",
+                    "astra"
+                ],
+                "extensions": [
+                    ""
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "astra",
+                "scopeName": "source.astra",
+                "path": "./syntaxes/astra.tmGrammar.json"
+            }
+        ]
     }
 }
