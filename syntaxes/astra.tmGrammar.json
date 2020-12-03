@@ -693,6 +693,16 @@
 			"match": "\\b(?i)as_strahl\\d+[A-Za-z]\\b"
 		},
 		{
+			"comment": "Subrputine as7_strahl",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)as\\d+_strahl\\d+[A-Za-z]\\b"
+		},
+		{
+			"comment": "Subrputine abel_trans",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)abel_trans\\b"
+		},
+		{
 			"comment": "Subrputine abel_trans",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)abel_trans\\d+[A-Za-z]\\b"

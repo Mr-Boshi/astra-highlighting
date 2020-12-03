@@ -34,3 +34,8 @@ Initial release
 * More variables are supported
 * Math symbols are highlighted
 
+### 0.1.1
+
+* As*_strahl added
+* abel_trans added
+
