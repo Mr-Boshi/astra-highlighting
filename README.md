@@ -36,6 +36,11 @@ Initial release
 
 ### 0.1.1
 
-* As*_strahl added
-* abel_trans added
+* **As_strahl** added
+* **abel_trans** added
+
+### 0.1.5
+* Inline comment dimming is fixed 
+* Numbers are colored
+* **Qlpf**, **read_dyn**, **rad_losses**, **time** added
 

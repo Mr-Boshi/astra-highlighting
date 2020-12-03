@@ -7,7 +7,7 @@
 		{
 			"comment": "comment seletion",
 			"name": "comment.line.astra",
-			"match": "^\\s*!.*"
+			"match": "\\s*!.*"
 		},
 		{
 			"comment": "Astra configuration parameter AB",
@@ -245,6 +245,17 @@
 			"name": "constant.numeric.astra",
 			"match": "\\b(?i)DN\\b"
 		},
+
+		{
+			"comment": "Numbers highlighting",
+			"name": "constant.numeric.astra",
+			"match": "\\b[0-9]+[.]?[ed]?[-]?[0-9]+\\b"
+		},
+		{
+			"comment": "Numbers highlighting",
+			"name": "constant.numeric.astra",
+			"match": "\\b[0-9]+\\b"
+		},
 		{
 			"comment": "Anomalus transport coefficient CN",
 			"name": "constant.numeric.astra",
@@ -284,16 +295,28 @@
 
 
 
+
 		{
 			"comment": "Operations highlighting",
 			"name": "constant.character.astra",
-			"match": "(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\b"
+			"match": "\\b(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\b"
 		},
 		{
 			"comment": "Operations highlighting",
 			"name": "constant.character.astra",
-			"match": "(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\B"
+			"match": "\\b(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\B"
 		},
+		{
+			"comment": "Operations highlighting",
+			"name": "constant.character.astra",
+			"match": "\\B(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\b"
+		},
+		{
+			"comment": "Operations highlighting",
+			"name": "constant.character.astra",
+			"match": "\\B(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\B"
+		},
+
 
 
 
@@ -311,6 +334,11 @@
 			"comment": "CV* seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)CV\\d+\\b"
+		},
+		{
+			"comment": "time seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)time\\b"
 		},
 		{
 			"comment": "CHE* seletion",
@@ -663,47 +691,62 @@
 			"match": "\\b(?i)SIGN\\b"
 		},
 		{
-			"comment": "Subrputine FGAUSS",
+			"comment": "Subroutine FGAUSS",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)FGAUSS\\b"
 		},
 		{
-			"comment": "Subrputine gridstrahl",
+			"comment": "Subroutine gridstrahl",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)gridstrahl\\b"
 		},
 		{
-			"comment": "Subrputine grid_circular",
+			"comment": "Subroutine grid_circular",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)grid_circular\\b"
 		},
 		{
-			"comment": "Subrputine NEUT",
+			"comment": "Subroutine NEUT",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)NEUT\\b"
 		},
 		{
-			"comment": "Subrputine NEUTAB",
+			"comment": "Subroutine NEUTAB",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)NEUTAB\\b"
 		},
 		{
-			"comment": "Subrputine as_strahl",
+			"comment": "Subroutine as_strahl",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)as_strahl\\d+[A-Za-z]\\b"
 		},
 		{
-			"comment": "Subrputine as7_strahl",
+			"comment": "Subroutine as7_strahl",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)as\\d+_strahl\\d+[A-Za-z]\\b"
 		},
 		{
-			"comment": "Subrputine abel_trans",
+			"comment": "Subroutine abel_trans",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)abel_trans\\b"
 		},
 		{
-			"comment": "Subrputine abel_trans",
+			"comment": "Subroutine Qlpf",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)Qlpf\\b"
+		},
+		{
+			"comment": "Subroutine read_dyn",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)read_dyn\\b"
+		},
+		{
+			"comment": "Subroutine rad_losses",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)rad_losses\\b"
+		},
+		{
+			"comment": "Subroutine abel_trans",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)abel_trans\\d+[A-Za-z]\\b"
 		}
