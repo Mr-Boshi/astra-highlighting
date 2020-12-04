@@ -21,3 +21,8 @@ Initial release
 * Inline comment dimming is fixed 
 * Numbers are colored
 * **Qlpf**, **read_dyn**, **rad_losses**, **time** added
+
+### 0.2.0
+* Gramar optimisation (~200 lines removed)
+*  **Qe_\***, **heat_transport**, **neocl**, **printtout**, **ei\_heat\_transf**, **as\_ogray\_\*** added
+*  Numbers at the end of some custom subroutines are supported

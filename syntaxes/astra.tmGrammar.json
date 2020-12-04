@@ -12,17 +12,7 @@
 		{
 			"comment": "Astra configuration parameter AB",
 			"name": "support.function.astra",
-			"match": "\\b(?i)AB\\b"
-		},
-		{
-			"comment": "Astra configuration parameter ABC",
-			"name": "support.function.astra",
-			"match": "\\b(?i)ABC\\b"
-		},
-		{
-			"comment": "RHO seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)RHO\\b"
+			"match": "\\b(?i)AB[C]?\\b"
 		},
 		{
 			"comment": "Astra configuration parameter AWALL",
@@ -45,14 +35,9 @@
 			"match": "\\b(?i)UPDWN\\b"
 		},
 		{
-			"comment": "Astra configuration parameter ELONG",
+			"comment": "Astra configuration parameter ELONM / ELONG",
 			"name": "support.function.astra",
-			"match": "\\b(?i)ELONG\\b"
-		},
-		{
-			"comment": "Astra configuration parameter ELONM",
-			"name": "support.function.astra",
-			"match": "\\b(?i)ELONM\\b"
+			"match": "\\b(?i)ELON[GM]\\b"
 		},
 		{
 			"comment": "Astra configuration parameter TRIAN",
@@ -70,14 +55,9 @@
 			"match": "\\b(?i)ENWM\\b"
 		},
 		{
-			"comment": "Astra configuration parameter ENCL",
+			"comment": "Astra configuration parameter NNCL ENCL",
 			"name": "support.function.astra",
-			"match": "\\b(?i)ENCL\\b"
-		},
-		{
-			"comment": "Astra configuration parameter NNCL",
-			"name": "support.function.astra",
-			"match": "\\b(?i)NNCL\\b"
+			"match": "\\b(?i)[EN]NCL\\b"
 		},
 		{
 			"comment": "Astra configuration parameter NNWM",
@@ -85,14 +65,9 @@
 			"match": "\\b(?i)NNWM\\b"
 		},
 		{
-			"comment": "Astra configuration parameter LEXT",
+			"comment": "Astra configuration parameter UEXT / LEXT",
 			"name": "support.function.astra",
-			"match": "\\b(?i)LEXT\\b"
-		},
-		{
-			"comment": "Astra configuration parameter UEXT",
-			"name": "support.function.astra",
-			"match": "\\b(?i)UEXT\\b"
+			"match": "\\b(?i)[LU]EXT\\b"
 		},
 		{
 			"comment": "Astra configuration parameter VOLUME",
@@ -100,19 +75,14 @@
 			"match": "\\b(?i)VOLUME\\b"
 		},
 		{
-			"comment": "Astra configuration parameter VSB",
+			"comment": "Astra configuration parameter VSC / VSB",
 			"name": "support.function.astra",
-			"match": "\\b(?i)VSB\\b"
+			"match": "\\b(?i)VS[CB]\\b"
 		},
 		{
-			"comment": "Astra configuration parameter VSC",
+			"comment": "Astra configuration parameter RHO / RHOW",
 			"name": "support.function.astra",
-			"match": "\\b(?i)VSC\\b"
-		},
-		{
-			"comment": "Astra configuration parameter RHOW",
-			"name": "support.function.astra",
-			"match": "\\b(?i)RHOW\\b"
+			"match": "\\b(?i)RHO[W]?\\b"
 		},
 		{
 			"comment": "Astra configuration parameter ROC",
@@ -120,19 +90,14 @@
 			"match": "\\b(?i)ROC\\b"
 		},
 		{
-			"comment": "Astra configuration parameter QECR",
+			"comment": "Astra configuration parameter QICR / QECR",
 			"name": "support.function.astra",
-			"match": "\\b(?i)QECR\\b"
+			"match": "\\b(?i)Q[EI]CR\\b"
 		},
 		{
 			"comment": "Astra configuration parameter QFW",
 			"name": "support.function.astra",
 			"match": "\\b(?i)QFW\\b"
-		},
-		{
-			"comment": "Astra configuration parameter QICR",
-			"name": "support.function.astra",
-			"match": "\\b(?i)QICR\\b"
 		},
 		{
 			"comment": "Astra configuration parameter QLH",
@@ -165,15 +130,11 @@
 
 
 
-		{
-			"comment": "Main plasma parameter IPL",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)IPL\\b"
-		},
+
 		{
 			"comment": "Main plasma parameter UPL",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)UPL\\b"
+			"match": "\\b(?i)[UI]PL\\b"
 		},
 		{
 			"comment": "BTOR seletion",
@@ -181,29 +142,14 @@
 			"match": "\\b(?i)BTOR\\b"
 		},
 		{
-			"comment": "Main plasma parameter MU",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)MU\\b"
-		},
-		{
 			"comment": "Main plasma parameter CU",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)CU\\b"
+			"match": "\\b(?i)[MC]U\\b"
 		},
 		{
 			"comment": "Main plasma parameter AMJ",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)AMJ\\b"
-		},
-		{
-			"comment": "Main plasma parameter ZMJ",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)ZMJ\\b"
-		},
-		{
-			"comment": "NE seletion",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)NE\\b"
+			"match": "\\b(?i)[AZ]MJ\\b"
 		},
 		{
 			"comment": "NDEUT seletion",
@@ -213,17 +159,12 @@
 		{
 			"comment": "NI seletion",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)NI\\b"
+			"match": "\\b(?i)N[EI]\\b"
 		},
 		{
 			"comment": "TE seletion",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)TE\\b"
-		},
-		{
-			"comment": "TI seletion",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)TI\\b"
+			"match": "\\b(?i)T[IE]\\b"
 		},
 		{
 			"comment": "ZEF seletion",
@@ -231,19 +172,9 @@
 			"match": "\\b(?i)ZEF\\b"
 		},
 		{
-			"comment": "TN seletion",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)TN\\b"
-		},
-		{
-			"comment": "NN seletion",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)NN\\b"
-		},
-		{
 			"comment": "Anomalus transport coefficient DN",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)DN\\b"
+			"match": "\\b(?i)[CNDT]N\\b"
 		},
 
 		{
@@ -257,19 +188,9 @@
 			"match": "\\b[0-9]+\\b"
 		},
 		{
-			"comment": "Anomalus transport coefficient CN",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)CN\\b"
-		},
-		{
 			"comment": "Anomalus transport coefficient WTI",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)WTI\\b"
-		},
-		{
-			"comment": "Anomalus transport coefficient WTE",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)WTE\\b"
+			"match": "\\b(?i)WT[EI]\\b"
 		},
 		{
 			"comment": "Anomalus transport coefficient WNE",
@@ -279,12 +200,7 @@
 		{
 			"comment": "Anomalus transport coefficient GN2I",
 			"name": "constant.numeric.astra",
-			"match": "\\b(?i)GN2I\\b"
-		},
-		{
-			"comment": "Anomalus transport coefficient GN2E",
-			"name": "constant.numeric.astra",
-			"match": "\\b(?i)GN2E\\b"
+			"match": "\\b(?i)GN2[EI]\\b"
 		},
 		{
 			"comment": "Anomalus transport coefficient AIM*",
@@ -299,23 +215,9 @@
 		{
 			"comment": "Operations highlighting",
 			"name": "constant.character.astra",
-			"match": "\\b(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\b"
+			"match": "[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]"
 		},
-		{
-			"comment": "Operations highlighting",
-			"name": "constant.character.astra",
-			"match": "\\b(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\B"
-		},
-		{
-			"comment": "Operations highlighting",
-			"name": "constant.character.astra",
-			"match": "\\B(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\b"
-		},
-		{
-			"comment": "Operations highlighting",
-			"name": "constant.character.astra",
-			"match": "\\B(?i)[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]\\B"
-		},
+
 
 
 
@@ -328,12 +230,7 @@
 		{
 			"comment": "CF* seletion",
 			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CF\\d+\\b"
-		},
-		{
-			"comment": "CV* seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CV\\d+\\b"
+			"match": "\\b(?i)C[FV]\\d+\\b"
 		},
 		{
 			"comment": "time seletion",
@@ -343,22 +240,12 @@
 		{
 			"comment": "CHE* seletion",
 			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CHE\\d+\\b"
-		},
-		{
-			"comment": "CHI* seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CHI\\d+\\b"
+			"match": "\\b(?i)CH[IE]\\d+\\b"
 		},
 		{
 			"comment": "CNB* seletion",
 			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CNB\\d+\\b"
-		},
-		{
-			"comment": "CNBI* seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CNBI\\d+\\b"
+			"match": "\\b(?i)CNB[I]?\\d+\\b"
 		},
 		{
 			"comment": "CCD* seletion",
@@ -411,14 +298,9 @@
 			"match": "\\b(?i)CSOL\\d+\\b"
 		},
 		{
-			"comment": "CAR* seletion",
+			"comment": "CAR(X)* seletion",
 			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CAR\\d+\\b"
-		},
-		{
-			"comment": "CARX* seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CAR\\d+[A-Za-z]\\b"
+			"match": "\\b(?i)CAR\\d+X?\\b"
 		},
 		{
 			"comment": "Build-in function WTOT",
@@ -468,22 +350,12 @@
 		{
 			"comment": "Build-in function FA",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)FA\\b"
-		},
-		{
-			"comment": "Build-in function FX",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)FX\\b"
+			"match": "\\b(?i)F[RXA]\\b"
 		},
 		{
 			"comment": "Build-in function FLIN",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)FLIN\\b"
-		},
-		{
-			"comment": "Build-in function FR",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)FR\\b"
 		},
 		{
 			"comment": "Build-in function FRS",
@@ -493,12 +365,7 @@
 		{
 			"comment": "Build-in function FPR",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)FPR\\b"
-		},
-		{
-			"comment": "Build-in function FPA",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)FPA\\b"
+			"match": "\\b(?i)FP[AR]\\b"
 		},
 		{
 			"comment": "Build-in function GAUSS",
@@ -528,12 +395,7 @@
 		{
 			"comment": "Build-in function RFVAL",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)RFVAL\\b"
-		},
-		{
-			"comment": "Build-in function AFVAL",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)AFVAL\\b"
+			"match": "\\b(?i)[AR]FVAL\\b"
 		},
 		{
 			"comment": "Build-in function GRAD",
@@ -543,12 +405,7 @@
 		{
 			"comment": "Build-in function VINT",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)VINT\\b"
-		},
-		{
-			"comment": "Build-in function IINT",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)IINT\\b"
+			"match": "\\b(?i)[VI]INT\\b"
 		},
 		{
 			"comment": "Build-in function VOLUM",
@@ -563,22 +420,7 @@
 		{
 			"comment": "Build-in function ASTEP",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)ASTEP\\b"
-		},
-		{
-			"comment": "Build-in function RSTEP",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)RSTEP\\b"
-		},
-		{
-			"comment": "Build-in function XSTEP",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)XSTEP\\b"
-		},
-		{
-			"comment": "Build-in function STEP",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)STEP\\b"
+			"match": "\\b(?i)[ARX]?STEP\\b"
 		},
 		{
 			"comment": "Build-in function CUT",
@@ -588,12 +430,7 @@
 		{
 			"comment": "Build-in function RFA",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)RFA\\b"
-		},
-		{
-			"comment": "Build-in function XFA",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)XFA\\b"
+			"match": "\\b(?i)[RX]FA\\b"
 		},
 		{
 			"comment": "Build-in function AFR",
@@ -608,37 +445,25 @@
 		{
 			"comment": "Build-in function RFAN",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)RFAN\\b"
+			"match": "\\b(?i)[XR]FAN\\b"
 		},
-		{
-			"comment": "Build-in function XFAN",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)XFAN\\b"
-		},
-		{
-			"comment": "Build-in function SIN",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)SIN\\b"
-		},
+
+
+
 		{
 			"comment": "Build-in function COS",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)COS\\b"
 		},
 		{
-			"comment": "Build-in function TAN",
+			"comment": "Build-in function SIN/ASIN",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)TAN\\b"
-		},
-		{
-			"comment": "Build-in function ASIN",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)ASIN\\b"
+			"match": "\\b(?i)[A]?SIN\\b"
 		},
 		{
 			"comment": "Build-in function ATAN",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)ATAN\\b"
+			"match": "\\b(?i)[A]?TAN\\b"
 		},
 		{
 			"comment": "Build-in function EXP",
@@ -665,15 +490,11 @@
 			"name": "storage.type.astra",
 			"match": "\\b(?i)SQRT\\b"
 		},
-		{
-			"comment": "Build-in function ALOG",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)ALOG\\b"
-		},
+
 		{
 			"comment": "Build-in function ALOG10",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)ALOG10\\b"
+			"match": "\\b(?i)ALOG(10)?\\b"
 		},
 		{
 			"comment": "Build-in function ANINT",
@@ -708,47 +529,62 @@
 		{
 			"comment": "Subroutine NEUT",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)NEUT\\b"
-		},
-		{
-			"comment": "Subroutine NEUTAB",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)NEUTAB\\b"
-		},
-		{
-			"comment": "Subroutine as_strahl",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)as_strahl\\d+[A-Za-z]\\b"
+			"match": "\\b(?i)NEUT(AB)?\\b"
 		},
 		{
 			"comment": "Subroutine as7_strahl",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)as\\d+_strahl\\d+[A-Za-z]\\b"
+			"match": "\\b(?i)as\\d*_strahl\\d*[A-Za-z]*\\b"
 		},
 		{
 			"comment": "Subroutine abel_trans",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)abel_trans\\b"
+			"match": "\\b(?i)abel_trans\\d*[A-Za-z]*\\b"
 		},
 		{
 			"comment": "Subroutine Qlpf",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)Qlpf\\b"
+			"match": "\\b(?i)Qlpf\\d*\\b"
 		},
 		{
 			"comment": "Subroutine read_dyn",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)read_dyn\\b"
+			"match": "\\b(?i)read_dyn\\d*\\b"
+		},
+		{
+			"comment": "Subroutine Qe_*",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)Qe\\_[[A-Za-z]]+\\d*\\b"
+		},
+		{
+			"comment": "Subroutine heat_transport",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)heat_transport\\d*\\b"
+		},
+		{
+			"comment": "Subroutine neocl",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)neocl\\d*\\b"
+		},
+		{
+			"comment": "Subroutine printtout",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)printtout\\d*\\b"
+		},
+		{
+			"comment": "Subroutine ei_heat_transf",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)ei\\_heat\\_transf\\d*\\b"
+		},
+		{
+			"comment": "Subroutine as_ogray",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)as\\_ogray\\_?\\d*\\b"
 		},
 		{
 			"comment": "Subroutine rad_losses",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)rad_losses\\b"
-		},
-		{
-			"comment": "Subroutine abel_trans",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)abel_trans\\d+[A-Za-z]\\b"
+			"match": "\\b(?i)rad_losses\\d*\\b"
 		}
 	]
 }
