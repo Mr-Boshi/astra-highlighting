@@ -172,6 +172,11 @@
 			"match": "\\b(?i)ZEF\\b"
 		},
 		{
+			"comment": "CC seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)CC\\b"
+		},
+		{
 			"comment": "TINIT seletion",
 			"name": "support.function.astra",
 			"match": "\\b(?i)TINIT\\b"
@@ -213,12 +218,12 @@
 		{
 			"comment": "Numbers highlighting",
 			"name": "constant.numeric.astra",
-			"match": "[0-9]+[.]?[ed][-]?[0-9]+"
+			"match": "\\b[0-9]+[.]?[ed][-+]?[0-9]+\\b"
 		},
 		{
 			"comment": "Numbers highlighting",
 			"name": "constant.numeric.astra",
-			"match": "[0-9]+[.]?[0-9]+"
+			"match": "\\b[0-9]+[.]?[0-9]?\\b"
 		},
 
 
@@ -237,6 +242,16 @@
 			"name": "string.astra",
 			"match": "(?i)\\\"WORK\\([A-Za-z0-9]+,\\d+\\)\\\""
 		},
+		{
+			"comment": "EQ seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)EQ\\b"
+		},	
+		{
+			"comment": "AS seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)AS\\b"
+		},	
 		{
 			"comment": "CF* seletion",
 			"name": "support.variable.other.astra",
@@ -303,15 +318,41 @@
 			"match": "\\b(?i)CRAD\\d+\\b"
 		},
 		{
-			"comment": "CSOL* seletion",
+			"comment": "CSCL / CSOL* seletion",
 			"name": "support.variable.other.astra",
-			"match": "\\b(?i)CSOL\\d+\\b"
+			"match": "\\b(?i)CS[OC]L\\d+\\b"
 		},
 		{
 			"comment": "CAR(X)* seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)CAR\\d+X?\\b"
 		},
+		{
+			"comment": "CDWM / CDYM / CDVM* seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)CD[WYV]M\\d+\\b"
+		},
+		{
+			"comment": "CDBC* seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)CDBC\\d+\\b"
+		},
+		{
+			"comment": "CDJM* seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)CDJM\\d+\\b"
+		},
+		{
+			"comment": "CDMJ / CDHJ* seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)CD[MH]J\\d+\\b"
+		},
+
+
+
+
+
+
 		{
 			"comment": "Build-in function WTOT",
 			"name": "storage.type.astra",
@@ -443,23 +484,20 @@
 			"match": "\\b(?i)[RX]FA\\b"
 		},
 		{
-			"comment": "Build-in function AFR",
+			"comment": "Build-in function AFX / AFR",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)AFR\\b"
+			"match": "\\b(?i)AF[XR]\\b"
 		},
 		{
-			"comment": "Build-in function AFX",
+			"comment": "Build-in function CNHR",
 			"name": "storage.type.astra",
-			"match": "\\b(?i)AFX\\b"
+			"match": "\\b(?i)CNHR\\b"
 		},
 		{
 			"comment": "Build-in function RFAN",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)[XR]FAN\\b"
 		},
-
-
-
 		{
 			"comment": "Build-in function COS",
 			"name": "storage.type.astra",
