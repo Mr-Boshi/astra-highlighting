@@ -49,3 +49,6 @@ Initial release
 *  **Qe_\***, **heat_transport**, **neocl**, **printtout**, **ei\_heat\_transf**, **as\_ogray\_\*** added
 *  Numbers at the end of some custom subroutines are supported
 
+### 0.2.2
+* Coloring fixed
+* **neomean** and **tostop** added
