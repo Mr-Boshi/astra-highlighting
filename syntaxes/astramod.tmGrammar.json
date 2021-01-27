@@ -1,7 +1,7 @@
 {
 	"name": "ASTRA model",
 	"scopeName": "source.astramod",
-	"fileTypes": [".astm"],
+	"fileTypes": [".asml", "-asml"],
 	"uuid": "d810057e-daf9-484b-97ed-a719fc1b209e",
 	"patterns": [
 		{
@@ -246,12 +246,12 @@
 			"comment": "EQ seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)EQ\\b"
-		},	
+		},
 		{
 			"comment": "AS seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)AS\\b"
-		},	
+		},
 		{
 			"comment": "CF* seletion",
 			"name": "support.variable.other.astra",

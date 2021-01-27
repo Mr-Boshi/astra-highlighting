@@ -35,7 +35,11 @@ Initial release
 * Coloring of single digit numbers fixed
 * **CSCL**, **CDWM**, **CDYM**, **CDVM**, **CDBC**, **CDJM**, **CDMJ**, **CDHJ**, **CNHR**, **AS**, **EQ**,  **CC** added
 
-## 0.3.0
+### 0.3.0
 * Language renamed to **ASTRA model**, the highlighting for ASTRA exp-files will be added later on
 * VS Code recognizes ASTRA model syntaxis in **\*.astm-files**
+
+## 0.4.0
+* Added **ASTRA exp** file support
+* Auto-recognition now works for files ending with **\*.asml** or **\*-asml** (ASTRA model) and **\*.asex** or **\*-asex** (ASTRA exp).
 

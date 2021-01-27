@@ -2,7 +2,7 @@
     "name": "astra",
     "displayName": "Astra-syn",
     "description": "Syntax highlighting for ASTRA code files",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "MrBoshi",
     "repository": {
         "type": "git",
@@ -23,7 +23,20 @@
                     "astra-model"
                 ],
                 "extensions": [
-                    ".astm"
+                    ".asml",
+                    "-asml"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "astra-exp",
+                "aliases": [
+                    "ASTRA exp",
+                    "astra-exp"
+                ],
+                "extensions": [
+                    ".asex",
+                    "-asex"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -33,6 +46,11 @@
                 "language": "astra-model",
                 "scopeName": "source.astramod",
                 "path": "./syntaxes/astramod.tmGrammar.json"
+            },
+            {
+                "language": "astra-exp",
+                "scopeName": "source.astraexp",
+                "path": "./syntaxes/astraexp.tmGrammar.json"
             }
         ]
     }

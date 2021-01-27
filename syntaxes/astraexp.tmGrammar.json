@@ -1,0 +1,287 @@
+{
+	"name": "ASTRA exp",
+	"scopeName": "source.astraexp",
+	"fileTypes": [".asex", "-asex"],
+	"uuid": "e9b5ad74-db9f-41aa-9e13-c4c9fde51e5a",
+	"patterns": [
+		{
+			"comment": "comment seletion",
+			"name": "comment.line.astra",
+			"match": "\\s*!.*"
+		},
+		{
+			"comment": "Astra configuration parameter AB",
+			"name": "support.function.astra",
+			"match": "\\b(?i)AB[C]?\\b"
+		},
+		{
+			"comment": "Astra configuration parameter AWALL",
+			"name": "support.function.astra",
+			"match": "\\b(?i)AWALL\\b"
+		},
+		{
+			"comment": "Astra configuration parameter RTOR",
+			"name": "support.function.astra",
+			"match": "\\b(?i)RTOR\\b"
+		},
+		{
+			"comment": "Astra configuration parameter SHIFT",
+			"name": "support.function.astra",
+			"match": "\\b(?i)SHIFT\\b"
+		},
+		{
+			"comment": "Astra configuration parameter UPDWN",
+			"name": "support.function.astra",
+			"match": "\\b(?i)UPDWN\\b"
+		},
+		{
+			"comment": "Astra configuration parameter ELONM / ELONG",
+			"name": "support.function.astra",
+			"match": "\\b(?i)ELON[GM]\\b"
+		},
+		{
+			"comment": "Astra configuration parameter TRIAN",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TRIAN\\b"
+		},
+		{
+			"comment": "Astra configuration parameter TRICH",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TRICH\\b"
+		},
+		{
+			"comment": "Astra configuration parameter ENWM",
+			"name": "support.function.astra",
+			"match": "\\b(?i)ENWM\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NNCL ENCL",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[EN]NCL\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NNWM",
+			"name": "support.function.astra",
+			"match": "\\b(?i)NNWM\\b"
+		},
+		{
+			"comment": "Astra configuration parameter UEXT / LEXT",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[LU]EXT\\b"
+		},
+		{
+			"comment": "Astra configuration parameter VOLUME",
+			"name": "support.function.astra",
+			"match": "\\b(?i)VOLUME\\b"
+		},
+		{
+			"comment": "Astra configuration parameter VSC / VSB",
+			"name": "support.function.astra",
+			"match": "\\b(?i)VS[CB]\\b"
+		},
+		{
+			"comment": "Astra configuration parameter RHO / RHOW",
+			"name": "support.function.astra",
+			"match": "\\b(?i)RHO[W]?\\b"
+		},
+		{
+			"comment": "Astra configuration parameter ROC",
+			"name": "support.function.astra",
+			"match": "\\b(?i)ROC\\b"
+		},
+		{
+			"comment": "Astra configuration parameter QICR / QECR",
+			"name": "support.function.astra",
+			"match": "\\b(?i)Q[EI]CR\\b"
+		},
+		{
+			"comment": "Astra configuration parameter QFW",
+			"name": "support.function.astra",
+			"match": "\\b(?i)QFW\\b"
+		},
+		{
+			"comment": "Astra configuration parameter QLH",
+			"name": "support.function.astra",
+			"match": "\\b(?i)QLH\\b"
+		},
+		{
+			"comment": "Astra configuration parameter QNBI",
+			"name": "support.function.astra",
+			"match": "\\b(?i)QNBI\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NB1",
+			"name": "support.function.astra",
+			"match": "\\b(?i)NB1\\b"
+		},
+		{
+			"comment": "Astra configuration parameter TSTART",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TSTART\\b"
+		},
+		{
+			"comment": "Astra configuration parameter TEND",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TEND\\b"
+		},
+		{
+			"comment": "Main plasma parameter UPL",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[UI]PL\\b"
+		},
+		{
+			"comment": "BTOR seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)BTOR\\b"
+		},
+		{
+			"comment": "Main plasma parameter CU",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[MC]U\\b"
+		},
+		{
+			"comment": "Main plasma parameter AMJ",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[AZ]MJ\\b"
+		},
+		{
+			"comment": "NDEUT seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)NDEUT\\b"
+		},
+		{
+			"comment": "NI seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)N[EI]\\b"
+		},
+		{
+			"comment": "TE seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)T[IE]\\b"
+		},
+		{
+			"comment": "ZEF seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)ZEF\\b"
+		},
+		{
+			"comment": "CC seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)CC\\b"
+		},
+		{
+			"comment": "TINIT seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TINIT\\b"
+		},
+		{
+			"comment": "TSCALE seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TSCALE\\b"
+		},
+		{
+			"comment": "Anomalus transport coefficient DN",
+			"name": "support.function.astra",
+			"match": "\\b(?i)[CNDT]N\\b"
+		},
+		{
+			"comment": "Anomalus transport coefficient WTI",
+			"name": "support.function.astra",
+			"match": "\\b(?i)WT[EI]\\b"
+		},
+		{
+			"comment": "Anomalus transport coefficient WNE",
+			"name": "support.function.astra",
+			"match": "\\b(?i)WNE\\b"
+		},
+		{
+			"comment": "Anomalus transport coefficient GN2I",
+			"name": "support.function.astra",
+			"match": "\\b(?i)GN2[EI]\\b"
+		},
+		{
+			"comment": "Anomalus transport coefficient AIM*",
+			"name": "support.function.astra",
+			"match": "\\b(?i)AIM\\d+\\b"
+		},
+		{
+			"comment": "CAR(X)* seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)CAR\\d+X?\\b"
+		},
+
+
+
+
+
+
+
+		{
+			"comment": "Numbers highlighting",
+			"name": "constant.numeric.astra",
+			"match": "\\b[0-9]+[.]?[ed][-+]?[0-9]+\\b"
+		},
+		{
+			"comment": "Numbers highlighting",
+			"name": "constant.numeric.astra",
+			"match": "\\b[0-9]+[.]?[0-9]?\\b"
+		},
+		{
+			"comment": "Operations highlighting",
+			"name": "constant.character.astra",
+			"match": "[\\*\\=\\+\\-\\^\\/\\~\\&\\@\\%\\<\\>\\:]"
+		},
+
+
+
+		{
+			"comment": "Error",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)error\\b"
+		},
+		{
+			"comment": "Value",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)value\\b"
+		},
+		{
+			"comment": "Name",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)name\\b"
+		},
+		{
+			"comment": "time",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)time\\b"
+		},
+
+
+
+
+		{
+			"comment": "FACTOR",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)FACTOR\\b"
+		},
+		{
+			"comment": "NTIMES",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)NTIMES\\b"
+		},
+		{
+			"comment": "NAMEXP",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)NAMEXP\\b"
+		},
+		{
+			"comment": "GRIDTYPE",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)GRIDTYPE\\b"
+		},
+		{
+			"comment": "POINTS",
+			"name": "storage.type.astra",
+			"match": "\\b(?i)POINTS\\b"
+		}
+	]
+}
