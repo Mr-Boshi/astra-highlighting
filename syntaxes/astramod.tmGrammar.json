@@ -1,7 +1,7 @@
 {
-	"name": "ASTRA",
-	"scopeName": "source.astra",
-	"fileTypes": [],
+	"name": "ASTRA model",
+	"scopeName": "source.astramod",
+	"fileTypes": [".astm"],
 	"uuid": "d810057e-daf9-484b-97ed-a719fc1b209e",
 	"patterns": [
 		{

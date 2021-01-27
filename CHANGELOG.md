@@ -18,7 +18,7 @@ Initial release
 * **abel_trans** added
 
 ### 0.1.5
-* Inline comment dimming is fixed 
+* Inline comment dimming is fixed
 * Numbers are colored
 * **Qlpf**, **read_dyn**, **rad_losses**, **time** added
 
@@ -31,7 +31,11 @@ Initial release
 * Coloring fixed
 * **neomean** and **tostop** added
 
-## 0.2.5
+### 0.2.5
 * Coloring of single digit numbers fixed
 * **CSCL**, **CDWM**, **CDYM**, **CDVM**, **CDBC**, **CDJM**, **CDMJ**, **CDHJ**, **CNHR**, **AS**, **EQ**,  **CC** added
+
+## 0.3.0
+* Language renamed to **ASTRA model**, the highlighting for ASTRA exp-files will be added later on
+* VS Code recognizes ASTRA model syntaxis in **\*.astm-files**
 
