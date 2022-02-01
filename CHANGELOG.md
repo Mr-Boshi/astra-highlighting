@@ -52,6 +52,10 @@ Initial release
   Foldable text
   ! /
   ```
-  For this to work the *Folding Strategy* in the *Settings* must be set te *auto*.
+  For this to work the *Folding Strategy* in the *Settings* must be set to *auto*.
 * Comment block highlighting is added. Default hotkey to comment a block of code is `shift+alt+a`. Note that uncommenting a comment block with this hotkey is currently not supported in this extention.
 * **TAUMIN**, **TAUMAX**, **DPOUT**, **DROUT**, **DTOUT**, **TPAUSE**, **NEQUIL**, **ZRD0...ZRD100** added.
+* Separate **WORK** highlighting was added.
+  
+## 0.5.1
+* License added (GNU General Public License 3).
