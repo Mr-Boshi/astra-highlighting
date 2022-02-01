@@ -64,3 +64,16 @@ Initial release
 ## 0.4.0
 * Added **ASTRA exp** file support
 * Auto-recognition now works for files ending with **\*.asml** or **\*-asml** (ASTRA model) and **\*.asex** or **\*-asex** (ASTRA exp).
+
+## 0.5.0
+* Folding markers are added:
+  any text between "`!\`" (or "`! \`") and "`!/`" (or "`! /`") is foldable. Folding block can have a title. Example:
+
+  ```
+  ! \ Folding block title
+  Foldable text
+  ! /
+  ```
+  For this to work the *Folding Strategy* in the *Settings* must be set te *auto*.
+* Comment block highlighting is added. Default hotkey to comment a block of code is `shift+alt+a`. Note that uncommenting a comment block with this hotkey is currently not supported in this extention.
+* **TAUMIN**, **TAUMAX**, **DPOUT**, **DROUT**, **DTOUT**, **TPAUSE**, **NEQUIL**, **ZRD0...ZRD100** added.

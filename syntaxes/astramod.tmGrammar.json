@@ -10,6 +10,25 @@
 			"match": "\\s*!.*"
 		},
 		{
+			"comment": "comment seletion",
+			"begin": "\\%(?!\/)", 
+			"beginCaptures": {
+				"0": {"name": "comment.line.astra"},
+				"name": "comment.line.astra"
+			},
+			"end": "\\%",
+			"endCaptures": {
+				"0": {
+					"name": "comment.line.astra"
+				},
+				"name": "comment.line.astra"
+			},
+			"name": "comment.block.astra"
+		},
+
+
+
+		{
 			"comment": "Astra configuration parameter AB",
 			"name": "support.function.astra",
 			"match": "\\b(?i)AB[C]?\\b"
@@ -187,6 +206,16 @@
 			"match": "\\b(?i)TSCALE\\b"
 		},
 		{
+			"comment": "TAUMIN seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TAUMIN\\b"
+		},
+		{
+			"comment": "TAUMAX seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)TAUMAX\\b"
+		},
+		{
 			"comment": "Anomalus transport coefficient DN",
 			"name": "support.function.astra",
 			"match": "\\b(?i)[CNDT]N\\b"
@@ -236,7 +265,11 @@
 
 
 
-
+		{
+			"comment": "WORK seletion",
+			"name": "string.astra",
+			"match": "(?i)WORK"
+		},
 		{
 			"comment": "WORK seletion",
 			"name": "string.astra",
@@ -248,14 +281,44 @@
 			"match": "\\b(?i)EQ\\b"
 		},
 		{
+			"comment": "DPOUT seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)DPOUT\\b"
+		},
+		{
+			"comment": "DROUT seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)DROUT\\b"
+		},
+		{
+			"comment": "DTOUT seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)DTOUT\\b"
+		},
+		{
+			"comment": "TPAUSE seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)TPAUSE\\b"
+		},
+		{
+			"comment": "NEQUIL seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)NEQUIL\\b"
+		},
+		{
 			"comment": "AS seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)AS\\b"
 		},
 		{
-			"comment": "CF* seletion",
+			"comment": "CV* or CF* seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)C[FV]\\d+\\b"
+		},
+		{
+			"comment": "ZRD* seletion",
+			"name": "support.variable.other.astra",
+			"match": "\\b(?i)ZRD\\d+\\b"
 		},
 		{
 			"comment": "time seletion",
