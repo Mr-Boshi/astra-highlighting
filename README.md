@@ -42,5 +42,5 @@ Extention's repo: __https://github.com/Mr-Boshi/astra-highlighting__
 
 ## Changelog
 
-See  the changes in the [**Changelog**](CHANGELOG.html).
+See  the changes in the [**Changelog**](CHANGELOG.md).
 
