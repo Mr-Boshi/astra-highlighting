@@ -3,6 +3,8 @@
     "displayName": "Astra-syn",
     "description": "Syntax highlighting for ASTRA code files",
     "version": "0.6.0",
+    "icon": "images/astra.png",
+    "license": "LICENSE.md",
     "publisher": "MrBoshi",
     "repository": {
         "type": "git",
