@@ -28,10 +28,168 @@
 
 
 
+
+		{
+			"comment": "Astra radial function RHO / RHOW",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)RHO[W]?\\b"
+		},
+		{
+			"comment": "Astra radial function AMETR",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)AMETR\\b"
+		},
+		{
+			"comment": "Astra radial function SHIF/SHIV",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)SHI[FV]\\b"
+		},
+		{
+			"comment": "Astra radial function NE/NI/NN",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)N[EIN]\\b"
+		},
+		{
+			"comment": "Astra radial function TE/TI/TN",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)T[IEN]\\b"
+		},
+		{
+			"comment": "Astra radial function FP/F1/F2/F3/FV",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)F[VP123]\\b"
+		},
+		{
+			"comment": "Astra radial function VR/VP",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)V[PR]\\b"
+		},
+		{
+			"comment": "Astra radial function ELON",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)ELON\\b"
+		},
+		{
+			"comment": "Astra radial function TRIA",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)TRIA\\b"
+		},
+		{
+			"comment": "Astra radial function CU/CD/CC",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)C[UDC]\\b"
+		},
+		{
+			"comment": "Astra radial function MU/MV",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)M[UV]\\b"
+		},
+		{
+			"comment": "Astra radial function CUBS",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)CUBS\\b"
+		},
+		{
+			"comment": "Astra radial function ULON",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)ULON\\b"
+		},
+		{
+			"comment": "Astra radial function UPL",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)UPL\\b"
+		},
+		{
+			"comment": "Astra radial function ZEF",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)ZEF\\b"
+		},
+		{
+			"comment": "Astra radial function QN/QE/QI",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)Q[NEI]\\b"
+		},
+		{
+			"comment": "Astra radial function IPOL",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)IPOL\\b"
+		},
+		{
+			"comment": "Astra radial function G11/G22/G33",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)G[123][123]\\b"
+		},
+		{
+			"comment": "Astra radial function SQEPS",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)SQEPS\\b"
+		},
+		{
+			"comment": "Astra radial function SLAT",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)SLAT\\b"
+		},
+		{
+			"comment": "Astra radial function VOLUM",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)VOLUM\\b"
+		},
+		{
+			"comment": "Astra radial function VRX/VRO/VRS",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)VR[XOS]\\b"
+		},
+		{
+			"comment": "Astra radial function NDEUT",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)NDEUT\\b"
+		},
+		{
+			"comment": "Astra radial function VPOL/VPOR",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)VPO[LR]\\b"
+		},	
+		{
+			"comment": "Astra radial function NHYDR",
+			"name": "string.regexp.astra",
+			"match": "\\b(?i)NHYDR\\b"
+		},	
+
+
+		{
+			"comment": "Astra configuration parameter FLH",
+			"name": "support.function.astra",
+			"match": "\\b(?i)FLH\\b"
+		},
+		{
+			"comment": "Astra configuration parameter FFW",
+			"name": "support.function.astra",
+			"match": "\\b(?i)FFW\\b"
+		},
+		{
+			"comment": "Astra configuration parameter FECR/FICR",
+			"name": "support.function.astra",
+			"match": "\\b(?i)F[IE]CR\\b"
+		},
+		{
+			"comment": "Astra configuration parameter WTI",
+			"name": "support.function.astra",
+			"match": "\\b(?i)WT[EI]\\b"
+		},
+		{
+			"comment": "Astra configuration parameter WNE",
+			"name": "support.function.astra",
+			"match": "\\b(?i)WNE\\b"
+		},
 		{
 			"comment": "Astra configuration parameter AB",
 			"name": "support.function.astra",
 			"match": "\\b(?i)AB[C]?\\b"
+		},
+		{
+			"comment": "Astra configuration parameter AIM1/2/3",
+			"name": "support.function.astra",
+			"match": "\\b(?i)AIM[123]\\b"
 		},
 		{
 			"comment": "Astra configuration parameter AWALL",
@@ -99,11 +257,6 @@
 			"match": "\\b(?i)VS[CB]\\b"
 		},
 		{
-			"comment": "Astra configuration parameter RHO / RHOW",
-			"name": "support.function.astra",
-			"match": "\\b(?i)RHO[W]?\\b"
-		},
-		{
 			"comment": "Astra configuration parameter ROC",
 			"name": "support.function.astra",
 			"match": "\\b(?i)ROC\\b"
@@ -129,11 +282,6 @@
 			"match": "\\b(?i)QNBI\\b"
 		},
 		{
-			"comment": "Astra configuration parameter NB1",
-			"name": "support.function.astra",
-			"match": "\\b(?i)NB1\\b"
-		},
-		{
 			"comment": "Astra configuration parameter TSTART",
 			"name": "support.function.astra",
 			"match": "\\b(?i)TSTART\\b"
@@ -143,7 +291,122 @@
 			"name": "support.function.astra",
 			"match": "\\b(?i)TEND\\b"
 		},
+		{
+			"comment": "Anomalus transport coefficient GN2I/GN2E",
+			"name": "support.function.astra",
+			"match": "\\b(?i)GN2[EI]\\b"
+		},		
 
+
+		
+		
+
+
+		{
+			"comment": "DPOUT/DROUT seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)D[PR]OUT\\b"
+		},
+		{
+			"comment": "TIME seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)time\\b"
+		},		
+		{
+			"comment": "DTOUT seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)DTOUT\\b"
+		},		
+		{
+			"comment": "NEQUIL seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)NEQUIL\\b"
+		},		
+		{
+			"comment": "TAUMIN seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)TAUMIN\\b"
+		},
+		{
+			"comment": "TAUMAX seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)TAUMAX\\b"
+		},
+		{
+			"comment": "TINIT seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)TINIT\\b"
+		},
+		{
+			"comment": "TSCALE seletion",
+			"name": "string.astra",
+			"match": "\\b(?i)TSCALE\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NB1",
+			"name": "string.astra",
+			"match": "\\b(?i)NB1\\b"
+		},
+		{
+			"comment": "Astra configuration parameter TAUINC",
+			"name": "string.astra",
+			"match": "\\b(?i)TAUINC\\b"
+		},
+		{
+			"comment": "Astra configuration parameter DELVAR",
+			"name": "string.astra",
+			"match": "\\b(?i)DELVAR\\b"
+		},
+		{
+			"comment": "Astra configuration parameter ITEREX",
+			"name": "string.astra",
+			"match": "\\b(?i)ITEREX\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NITREQ",
+			"name": "string.astra",
+			"match": "\\b(?i)NITREQ\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NUF",
+			"name": "string.astra",
+			"match": "\\b(?i)NUF\\b"
+		},
+		{
+			"comment": "Astra configuration parameter XOUT",
+			"name": "string.astra",
+			"match": "\\b(?i)XOUT\\b"
+		},
+		{
+			"comment": "Astra configuration parameter XINPUT",
+			"name": "string.astra",
+			"match": "\\b(?i)XINPUT\\b"
+		},		
+		{
+			"comment": "Astra configuration parameter NB2EQL",
+			"name": "string.astra",
+			"match": "\\b(?i)NB2EQL\\b"
+		},
+		{
+			"comment": "Astra configuration parameter NBND",
+			"name": "string.astra",
+			"match": "\\b(?i)NBND\\b"
+		},
+		{
+			"comment": "Astra configuration parameter XFLAG",
+			"name": "string.astra",
+			"match": "\\b(?i)XFLAG\\b"
+		},
+		{
+			"comment": "Astra configuration parameter DTEQL",
+			"name": "string.astra",
+			"match": "\\b(?i)DTEQL\\b"
+		},
+		{
+			"comment": "Astra configuration parameter MEQUIL",
+			"name": "string.astra",
+			"match": "\\b(?i)MEQUIL\\b"
+		},
 
 
 
@@ -151,9 +414,9 @@
 
 
 		{
-			"comment": "Main plasma parameter UPL",
+			"comment": "Main plasma parameter IPL",
 			"name": "support.function.astra",
-			"match": "\\b(?i)[UI]PL\\b"
+			"match": "\\b(?i)IPL\\b"
 		},
 		{
 			"comment": "BTOR seletion",
@@ -161,24 +424,29 @@
 			"match": "\\b(?i)BTOR\\b"
 		},
 		{
-			"comment": "Main plasma parameter CU",
-			"name": "support.function.astra",
-			"match": "\\b(?i)[MC]U\\b"
-		},
-		{
 			"comment": "Main plasma parameter AMJ",
 			"name": "support.function.astra",
 			"match": "\\b(?i)[AZ]MJ\\b"
 		},
 		{
-			"comment": "NDEUT seletion",
+			"comment": "NIZ* seletion",
 			"name": "support.function.astra",
-			"match": "\\b(?i)NDEUT\\b"
+			"match": "\\b(?i)NIZ\\d+\\b"
 		},
 		{
-			"comment": "NI seletion",
+			"comment": "ZIM* seletion",
 			"name": "support.function.astra",
-			"match": "\\b(?i)N[EI]\\b"
+			"match": "\\b(?i)ZIM\\d+\\b"
+		},
+		{
+			"comment": "ZMAIN seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)ZMAIN\\b"
+		},
+		{
+			"comment": "AMAIN seletion",
+			"name": "support.function.astra",
+			"match": "\\b(?i)AMAIN\\b"
 		},
 		{
 			"comment": "TE seletion",
@@ -186,60 +454,16 @@
 			"match": "\\b(?i)T[IE]\\b"
 		},
 		{
-			"comment": "ZEF seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)ZEF\\b"
-		},
-		{
 			"comment": "CC seletion",
 			"name": "support.function.astra",
 			"match": "\\b(?i)CC\\b"
-		},
-		{
-			"comment": "TINIT seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)TINIT\\b"
-		},
-		{
-			"comment": "TSCALE seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)TSCALE\\b"
-		},
-		{
-			"comment": "TAUMIN seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)TAUMIN\\b"
-		},
-		{
-			"comment": "TAUMAX seletion",
-			"name": "support.function.astra",
-			"match": "\\b(?i)TAUMAX\\b"
 		},
 		{
 			"comment": "Anomalus transport coefficient DN",
 			"name": "support.function.astra",
 			"match": "\\b(?i)[CNDT]N\\b"
 		},
-		{
-			"comment": "Anomalus transport coefficient WTI",
-			"name": "support.function.astra",
-			"match": "\\b(?i)WT[EI]\\b"
-		},
-		{
-			"comment": "Anomalus transport coefficient WNE",
-			"name": "support.function.astra",
-			"match": "\\b(?i)WNE\\b"
-		},
-		{
-			"comment": "Anomalus transport coefficient GN2I",
-			"name": "support.function.astra",
-			"match": "\\b(?i)GN2[EI]\\b"
-		},
-		{
-			"comment": "Anomalus transport coefficient AIM*",
-			"name": "support.function.astra",
-			"match": "\\b(?i)AIM\\d+\\b"
-		},
+		
 
 
 
@@ -247,7 +471,7 @@
 		{
 			"comment": "Numbers highlighting",
 			"name": "constant.numeric.astra",
-			"match": "\\b[0-9]+[.]?[ed][-+]?[0-9]+\\b"
+			"match": "\\b[0-9]+[.]?[edED][-+]?[0-9]+\\b"
 		},
 		{
 			"comment": "Numbers highlighting",
@@ -265,50 +489,39 @@
 
 
 
+
 		{
 			"comment": "WORK seletion",
-			"name": "string.astra",
+			"name": "entity.name.tag.astra",
 			"match": "(?i)WORK"
 		},
 		{
 			"comment": "WORK seletion",
-			"name": "string.astra",
+			"name": "entity.name.tag.astra",
 			"match": "(?i)\\\"WORK\\([A-Za-z0-9]+,\\d+\\)\\\""
 		},
 		{
-			"comment": "EQ seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)EQ\\b"
+				"comment": "EQ seletion",
+				"name": "entity.name.tag.astra",
+				"match": "\\b(?i)EQ\\b"
 		},
 		{
-			"comment": "DPOUT seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)DPOUT\\b"
+				"comment": "AS seletion",
+				"name": "entity.name.tag.astra",
+				"match": "\\b(?i)AS\\b"
 		},
-		{
-			"comment": "DROUT seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)DROUT\\b"
-		},
-		{
-			"comment": "DTOUT seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)DTOUT\\b"
-		},
+			
+
+
+
+
+
+
+
 		{
 			"comment": "TPAUSE seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)TPAUSE\\b"
-		},
-		{
-			"comment": "NEQUIL seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)NEQUIL\\b"
-		},
-		{
-			"comment": "AS seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)AS\\b"
 		},
 		{
 			"comment": "CV* or CF* seletion",
@@ -319,11 +532,6 @@
 			"comment": "ZRD* seletion",
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)ZRD\\d+\\b"
-		},
-		{
-			"comment": "time seletion",
-			"name": "support.variable.other.astra",
-			"match": "\\b(?i)time\\b"
 		},
 		{
 			"comment": "CHE* seletion",
@@ -410,7 +618,6 @@
 			"name": "support.variable.other.astra",
 			"match": "\\b(?i)CD[MH]J\\d+\\b"
 		},
-
 
 
 
@@ -522,11 +729,6 @@
 			"match": "\\b(?i)[VI]INT\\b"
 		},
 		{
-			"comment": "Build-in function VOLUM",
-			"name": "storage.type.astra",
-			"match": "\\b(?i)VOLUM\\b"
-		},
-		{
 			"comment": "Build-in function NEAV",
 			"name": "storage.type.astra",
 			"match": "\\b(?i)NEAV\\b"
@@ -622,90 +824,785 @@
 			"name": "storage.type.astra",
 			"match": "\\b(?i)SIGN\\b"
 		},
+
+
+
+
+
 		{
 			"comment": "Subroutine FGAUSS",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)FGAUSS\\b"
 		},
 		{
 			"comment": "Subroutine gridstrahl",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)gridstrahl\\b"
 		},
 		{
 			"comment": "Subroutine grid_circular",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)grid_circular\\b"
 		},
 		{
 			"comment": "Subroutine NEUT",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)NEUT(AB)?\\b"
 		},
 		{
 			"comment": "Subroutine as7_strahl",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)as\\d*_strahl\\d*[A-Za-z]*\\b"
 		},
 		{
 			"comment": "Subroutine abel_trans",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)abel_trans\\d*[A-Za-z]*\\b"
 		},
 		{
 			"comment": "Subroutine Qlpf",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)Qlpf\\d*\\b"
 		},
 		{
 			"comment": "Subroutine read_dyn",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)read_dyn\\d*\\b"
 		},
 		{
 			"comment": "Subroutine Qe_*",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)Qe\\_[[A-Za-z]]+\\d*\\b"
 		},
 		{
 			"comment": "Subroutine heat_transport",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)heat_transport\\d*\\b"
 		},
 		{
 			"comment": "Subroutine neocl",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)neocl\\d*\\b"
 		},
 		{
 			"comment": "Subroutine printtout",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)printtout\\d*\\b"
 		},
 		{
 			"comment": "Subroutine ei_heat_transf",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)ei\\_heat\\_transf\\d*\\b"
 		},
 		{
 			"comment": "Subroutine as_ogray",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)as\\_ogray\\_?\\d*\\b"
 		},
 		{
 			"comment": "Subroutine neomean",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)neomean\\d*\\b"
 		},
 		{
 			"comment": "Subroutine tostop",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)tostop\\d*\\b"
 		},
 		{
 			"comment": "Subroutine rad_losses",
-			"name": "storage.type.astra",
+			"name": "markup.heading.astra",
 			"match": "\\b(?i)rad_losses\\d*\\b"
+		},
+		{
+			"comment": "Subroutine a2g",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)a2g\\d*\\b"
+		},
+		{
+			"comment": "Subroutine addpel",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)addpel\\d*\\b"
+		},
+		{
+			"comment": "Subroutine ajs",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)ajs\\d*\\b"
+		},
+		{
+			"comment": "Subroutine amoeba",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)amoeba\\d*\\b"
+		},
+		{
+			"comment": "Subroutine aprint",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)aprint\\d*\\b"
+		},
+		{
+			"comment": "Subroutine as_strahl_ne",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)as_strahl_ne\\d*\\b"
+		},
+		{
+			"comment": "Subroutine assign",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)assign\\d*\\b"
+		},
+		{
+			"comment": "Subroutine atci06",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)atci06\\d*\\b"
+		},
+		{
+			"comment": "Subroutine averfs",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)averfs\\d*\\b"
+		},
+		{
+			"comment": "Subroutine b2eit",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)b2eit\\d*\\b"
+		},
+		{
+			"comment": "Subroutine balst",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)balst\\d*\\b"
+		},
+		{
+			"comment": "Subroutine betagw",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)betagw\\d*\\b"
+		},
+		{
+			"comment": "Subroutine blas_zgeev",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)blas_zgeev\\d*\\b"
+		},
+		{
+			"comment": "Subroutine bln",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)bln\\d*\\b"
+		},
+		{
+			"comment": "Subroutine bsal",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)bsal\\d*\\b"
+		},
+		{
+			"comment": "Subroutine callglf2d",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)callglf2d\\d*\\b"
+		},
+		{
+			"comment": "Subroutine chicr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)chicr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine chimod",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)chimod\\d*\\b"
+		},
+		{
+			"comment": "Subroutine config",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)config\\d*\\b"
+		},
+		{
+			"comment": "Subroutine conipl",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)conipl\\d*\\b"
+		},
+		{
+			"comment": "Subroutine coptan",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)coptan\\d*\\b"
+		},
+		{
+			"comment": "Subroutine corona",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)corona\\d*\\b"
+		},
+		{
+			"comment": "Subroutine cpmu",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)cpmu\\d*\\b"
+		},
+		{
+			"comment": "Subroutine cpmu1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)cpmu1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine cpmu2",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)cpmu2\\d*\\b"
+		},
+		{
+			"comment": "Subroutine d2arr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)d2arr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine deviation",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)deviation\\d*\\b"
+		},
+		{
+			"comment": "Subroutine djump",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)djump\\d*\\b"
+		},
+		{
+			"comment": "Subroutine dlsoda",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)dlsoda\\d*\\b"
+		},
+		{
+			"comment": "Subroutine dtmode",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)dtmode\\d*\\b"
+		},
+		{
+			"comment": "Subroutine e3m",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)e3m\\d*\\b"
+		},
+		{
+			"comment": "Subroutine eqpr1d",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)eqpr1d\\d*\\b"
+		},
+		{
+			"comment": "Subroutine EXPray",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)EXPray\\d*\\b"
+		},
+		{
+			"comment": "Subroutine feeden",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)feeden\\d*\\b"
+		},
+		{
+			"comment": "Subroutine feven",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)feven\\d*\\b"
+		},
+		{
+			"comment": "Subroutine four1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)four1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine fourar",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)fourar\\d*\\b"
+		},
+		{
+			"comment": "Subroutine fourex",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)fourex\\d*\\b"
+		},
+		{
+			"comment": "Subroutine fourtr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)fourtr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine fourv",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)fourv\\d*\\b"
+		},
+		{
+			"comment": "Subroutine fourvr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)fourvr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine frabun_calc",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)frabun_calc\\d*\\b"
+		},
+		{
+			"comment": "Subroutine ftanhf",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)ftanhf\\d*\\b"
+		},
+		{
+			"comment": "Subroutine get_Xei",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)get_Xei\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf161",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf161\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf161a",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf161a\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf161d",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf161d\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf23b",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf23b\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf23c",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf23c\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf23d",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf23d\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf23f",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf23f\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf23g",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf23g\\d*\\b"
+		},
+		{
+			"comment": "Subroutine glf2d",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)glf2d\\d*\\b"
+		},
+		{
+			"comment": "Subroutine gnex",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)gnex\\d*\\b"
+		},
+		{
+			"comment": "Subroutine gnxsrc",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)gnxsrc\\d*\\b"
+		},
+		{
+			"comment": "Subroutine gnxsrc_z",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)gnxsrc_z\\d*\\b"
+		},
+		{
+			"comment": "Subroutine h98scaling",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)h98scaling\\d*\\b"
+		},
+		{
+			"comment": "Subroutine icray",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)icray\\d*\\b"
+		},
+		{
+			"comment": "Subroutine ifsppl",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)ifsppl\\d*\\b"
+		},
+		{
+			"comment": "Subroutine igen",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)igen\\d*\\b"
+		},
+		{
+			"comment": "Subroutine int_rdr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)int_rdr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine layer",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)layer\\d*\\b"
+		},
+		{
+			"comment": "Subroutine lhcd",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)lhcd\\d*\\b"
+		},
+		{
+			"comment": "Subroutine lhvmk",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)lhvmk\\d*\\b"
+		},
+		{
+			"comment": "Subroutine lsode",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)lsode\\d*\\b"
+		},
+		{
+			"comment": "Subroutine minmax",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)minmax\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mix",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mix\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mix1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mix1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mixext",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mixext\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mixint",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mixint\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mixq",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mixq\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mmm4a",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mmm4a\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mse",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mse\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mse6",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mse6\\d*\\b"
+		},
+		{
+			"comment": "Subroutine myconv",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)myconv\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mydraw",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mydraw\\d*\\b"
+		},
+		{
+			"comment": "Subroutine mykey",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)mykey\\d*\\b"
+		},
+		{
+			"comment": "Subroutine myout",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)myout\\d*\\b"
+		},
+		{
+			"comment": "Subroutine myprint",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)myprint\\d*\\b"
+		},
+		{
+			"comment": "Subroutine nbi",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)nbi\\d*\\b"
+		},
+		{
+			"comment": "Subroutine nclass",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)nclass\\d*\\b"
+		},
+		{
+			"comment": "Subroutine nctj2",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)nctj2\\d*\\b"
+		},
+		{
+			"comment": "Subroutine neocls",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)neocls\\d*\\b"
+		},
+		{
+			"comment": "Subroutine neut_z",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)neut_z\\d*\\b"
+		},
+		{
+			"comment": "Subroutine neuten",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)neuten\\d*\\b"
+		},
+		{
+			"comment": "Subroutine neutex",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)neutex\\d*\\b"
+		},
+		{
+			"comment": "Subroutine oldsbrread_dyn",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)oldsbrread_dyn\\d*\\b"
+		},
+		{
+			"comment": "Subroutine onotusedread_dyn2",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)onotusedread_dyn2\\d*\\b"
+		},
+		{
+			"comment": "Subroutine out2gyro",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)out2gyro\\d*\\b"
+		},
+		{
+			"comment": "Subroutine Pcx_Hn2",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)Pcx_Hn2\\d*\\b"
+		},
+		{
+			"comment": "Subroutine pelite",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)pelite\\d*\\b"
+		},
+		{
+			"comment": "Subroutine pelitefsetfd",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)pelitefsetfd\\d*\\b"
+		},
+		{
+			"comment": "Subroutine pfalp",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)pfalp\\d*\\b"
+		},
+		{
+			"comment": "Subroutine plim",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)plim\\d*\\b"
+		},
+		{
+			"comment": "Subroutine plim1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)plim1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine powell",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)powell\\d*\\b"
+		},
+		{
+			"comment": "Subroutine pzrad",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)pzrad\\d*\\b"
+		},
+		{
+			"comment": "Subroutine Qcx_CVI",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)Qcx_CVI\\d*\\b"
+		},
+		{
+			"comment": "Subroutine Qpost_fe",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)Qpost_fe\\d*\\b"
+		},
+		{
+			"comment": "Subroutine quadro_deviation",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)quadro_deviation\\d*\\b"
+		},
+		{
+			"comment": "Subroutine quafit",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)quafit\\d*\\b"
+		},
+		{
+			"comment": "Subroutine r4sbrspline1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)r4sbrspline1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine r8tomsqz",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)r8tomsqz\\d*\\b"
+		},
+		{
+			"comment": "Subroutine rad_get",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)rad_get\\d*\\b"
+		},
+		{
+			"comment": "Subroutine read_input_constant_file",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)read_input_constant_file\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setfa",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setfa\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setfc",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setfc\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setfus",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setfus\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setnav",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setnav\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setneavr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setneavr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setnep",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setnep\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setpel",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setpel\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setplh",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setplh\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setq",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setq\\d*\\b"
+		},
+		{
+			"comment": "Subroutine setran",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)setran\\d*\\b"
+		},
+		{
+			"comment": "Subroutine shcor",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)shcor\\d*\\b"
+		},
+		{
+			"comment": "Subroutine shcor1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)shcor1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine simson",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)simson\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smash",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smash\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smear1",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smear1\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smearr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smearr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smofml",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smofml\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smooth2",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smooth2\\d*\\b"
+		},
+		{
+			"comment": "Subroutine smoothfac",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)smoothfac\\d*\\b"
+		},
+		{
+			"comment": "Subroutine sneav",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)sneav\\d*\\b"
+		},
+		{
+			"comment": "Subroutine sqrmod",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)sqrmod\\d*\\b"
+		},
+		{
+			"comment": "Subroutine starr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)starr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine staterr",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)staterr\\d*\\b"
+		},
+		{
+			"comment": "Subroutine stvar",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)stvar\\d*\\b"
+		},
+		{
+			"comment": "Subroutine toeqdsk",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)toeqdsk\\d*\\b"
+		},
+		{
+			"comment": "Subroutine tsctrl",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)tsctrl\\d*\\b"
+		},
+		{
+			"comment": "Subroutine tunen",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)tunen\\d*\\b"
+		},
+		{
+			"comment": "Subroutine twave",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)twave\\d*\\b"
+		},
+		{
+			"comment": "Subroutine write_spider_to_dat",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)write_spider_to_dat\\d*\\b"
+		},
+		{
+			"comment": "Subroutine wrsudg",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)wrsudg\\d*\\b"
+		},
+		{
+			"comment": "Subroutine zalfl",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)zalfl\\d*\\b"
+		},
+		{
+			"comment": "Subroutine zeff2b",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)zeff2b\\d*\\b"
+		},
+		{
+			"comment": "Subroutine zgeev",
+			"name": "markup.heading.astra",
+			"match": "\\b(?i)zgeev\\d*\\b"
 		}
 	]
 }

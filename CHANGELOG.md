@@ -59,3 +59,9 @@ Initial release
   
 ## 0.5.1
 * License added (GNU General Public License 3).
+
+## 0.6.0
+* 2 more data types added.
+* Reorganised the variables by types.
+* Readme now shows all supported highlights.
+* All subroutines (from sbr/) are added (~140 subroutines).
